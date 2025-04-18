@@ -1,0 +1,94 @@
+.karibu{
+    display: flex;
+    height: 100vh;
+}
+.picture{
+    width: 50%;
+    background-image: url(images/reservation.jpeg);
+    background-size: cover;
+}    
+#name{
+    width: 40vw;
+}
+.form{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form .form-box{
+    border: 1px solid #FFFFFF;
+}
+.Ankole-Logo{
+    position: absolute;
+    top: 20%;
+    left: 360px;
+}
+.words{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 300px;
+    color: #FFFFFF;
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .karibu{
+        border: 1px solid;
+    }
+    .picture{
+        width: 100%;
+        background-image: url(images/reservation.jpeg);
+        background-size: cover;
+    }
+    #name{
+        width: 100vw;
+    }
+    #region{
+        width: 100vw;
+    }
+    #email{
+        width: 100vw;
+    }
+    #tel-cell{
+        width: 100vw;
+    }
+    #guests{
+        width: 100vw;
+    }
+    #date{
+        width: 100vw;
+    }
+    #time{
+        width: 100vw;
+    }
+    #Submit{
+        width: 100vw;
+    }
+    .form{
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 400px;
+    }
+    .Ankole-Logo{
+        position: absolute;
+        top: 50px;
+        left: 150px;
+    }
+    .words{
+        position: absolute;
+        text-align: center;
+        top: 200px;
+        left: 120px;
+        color: #080808;
+    }
+}

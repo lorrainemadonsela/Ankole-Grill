@@ -1,0 +1,259 @@
+*{box-sizing: border-box;}
+body{font-family: 'Courier New', Courier, monospace;}
+
+.container{
+    max-width: 100vw;
+    margin: auto;
+}
+.div{
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+    animation: slider 20s linear infinite;
+}
+@keyframes slider{
+    0%{
+        background-image: url(images/Welcome.jpg);
+        
+    }
+    30%{
+        background-image: url(images/discover.jpg);
+    }
+    60%{
+        background-image: url(images/experience.jpg);
+    }
+    90%{
+        background-image: url(images/taste.jpeg);
+    }
+    120%{
+        background-image: url(images/savour.jpg);
+    }
+}
+.ankole-logo{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 10px;
+}
+.IG-FB{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 60px;
+    color: #c4bfbf;
+}
+.wap{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 800px;
+    color: #c4bfbf;
+}
+.pages{
+    border: 1px solid;
+    border-radius: 50px;
+    width: 70%;
+    margin-left: 80px;
+    height: 40px;
+    display: flex;
+    font-size: 15px;
+    gap: 60px;
+    padding-left: 150px;
+    position: absolute;
+    top: 780px;
+    color: #FFFFFF;
+    background-color: #1f1e1e;
+    left: 200px;
+}
+.home{
+    font-size: 20px;
+    margin-top: 10px; 
+}
+.menu{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.reviews{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.events{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.live{
+    font-size: 20px;
+    margin-top: 10px;
+}.menu{
+    display: flex;
+}
+.left{
+    width: 50%;
+    text-align: center;
+    background-image: url(images/menu.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.right{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    gap: 200px;
+    padding-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.breakfast p{
+    display: inline-block;
+    margin: 4px 0;
+    font-size: 18px;
+}
+.food p{
+    display: inline-block;
+    margin: 4px 0;
+    font-size: 18px;
+}
+.drinks p{
+    display: inline-block;
+    margin: 4px 0;
+    font-size: 18px;
+}
+.name{
+    width: 50%;
+    text-align: left;
+}
+.price{
+    width: 50vw;
+    text-align: right;
+}
+.Ankole-logo{
+    position: absolute;
+    top: 400px;
+    left: 17vw;
+}
+.contacts{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.reservation{
+    font-size: 20px;
+    margin-top: 16px;
+}
+.bars{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+.clock{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+}
+.reservation{
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #c4bfbf;
+    width: 250px;
+    height: 40px;
+    padding-left: 40px;
+    margin-top: 1px;
+    align-content: center;
+    position: absolute;
+    right: 7%;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .div{
+        margin: 3rem 6rem;
+        height: 30rem;
+        width: 46rem;
+        background-size: 100%;
+        box-shadow: 20px 20px 20px grey;
+        animation: slider 20s linear infinite;
+    }
+
+    .ankole-logo{
+        position: absolute;
+        top: 10px;
+        left: 200px;
+        width: 10px;
+    }
+    .IG-FB{
+        margin-left: 700px;
+        padding-left: 80px;
+        position: absolute;
+        top: 20px;
+        color: #c4bfbf;
+    }
+    .wap{
+        margin-left: 700px;
+        padding-left: 80px;
+        position: absolute;
+        top: 400px;
+        color: #c4bfbf;
+    }
+    .pages{
+        border: 1px solid;
+        border-radius: 50px;
+        width: 500px;
+        margin-left: 80px;
+        display: flex;
+        font-size: 5px;
+        gap: 20px;
+        padding-left: 80px;
+        position: absolute;
+        top: 400px;
+        color: #FFFFFF;
+        background-color: #1f1e1e;
+        left: 100px;
+    }
+    .menu{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .reviews{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .events{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .live{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .contacts{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .reservation{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .bars{
+        position: absolute;
+        bottom: 12px;
+        left: 30px;
+    }
+    .clock{
+        position: absolute;
+        bottom: 12px;
+        left: 60px;
+    }
+    .reservation{
+        border: 1px solid;
+        border-radius: 50px;
+        background-color: #c4bfbf;
+    }
+    
+}

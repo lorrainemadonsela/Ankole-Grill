@@ -1,0 +1,68 @@
+.container{
+    border: 1px solid;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+.accra{
+    border: 1px solid;
+    width: 33vw;
+    height: 100vh;
+    align-content: center;
+    background-image: url(images/accra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.nairobi{
+    border: 1px solid;
+    width: 33vw;
+    height: 100vh;
+    align-content: center;
+    background-image: url(images/nai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.addis{
+    border: 1px solid;
+    width: 33vw;
+    height: 100vh;
+    align-content: center;
+    background-image: url(images/nairobi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.Ankole-logo{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.ankole-logo{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 10px;
+}
+.IG-FB{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 60px;
+    color: #c4bfbf;
+}
+.wap{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 800px;
+    color: #c4bfbf;
+}

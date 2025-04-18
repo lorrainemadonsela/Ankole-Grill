@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+}
+.left{
+    width: 50%;
+    text-align: center;
+    background-image: url(images/menu.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.right{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    gap: 200px;
+    padding-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.breakfast p{
+    display: inline-block;
+    margin: 4px 0;
+    font-size: 18px;
+}
+.food p{
+    display: inline-block;
+    margin: 4px 0;
+    font-size: 18px;
+}
+.drinks p{
+    display: inline-block;
+    margin: 4px 0;
+    font-size: 18px;
+}
+.name{
+    width: 50%;
+    text-align: left;
+}
+.price{
+    width: 50vw;
+    text-align: right;
+}
+.Ankole-logo{
+    position: absolute;
+    top: 400px;
+    left: 17vw;
+}

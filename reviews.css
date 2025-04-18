@@ -1,0 +1,100 @@
+.reviews-section{
+    display: flex;
+    width: 300vw;
+    height: 100vh;
+}
+.irfan{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+.irfan .fa-quote-left{
+    position: absolute;
+    left: 30%;
+    top: 36%;
+    color: chocolate;
+}
+.irfan .fa-quote-right{
+    position: absolute;
+    left: 70%;
+    color: chocolate;
+}
+.paul{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+.paul .fa-quote-left{
+    position: absolute;
+    left: 130%;
+    top: 38%;
+    color: chocolate;
+}
+.paul .fa-quote-right{
+    position: absolute;
+    left: 173%;
+    color: chocolate;
+}
+.vladimiro{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+.vladimiro .fa-quote-left{
+    position: absolute;
+    left: 230%;
+    top: 40%;
+    color: chocolate;
+}
+.vladimiro .fa-quote-right{
+    position: absolute;
+    left: 273%;
+    color: chocolate;
+}
+.ankole-logo{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 10px;
+}
+.IG-FB{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 60px;
+    color: #c4bfbf;
+    left: 50px;
+}
+.wap{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 800px;
+    color: #c4bfbf;
+    left: 50px;
+}
+.ankole-Logo{
+    position: absolute;
+    top: 40px;
+    left: 45%;
+}
+.Ankole-Logo{
+    position: absolute;
+    top: 40px;
+    left: 147%;
+}
+.ankole-logO{
+    position: absolute;
+    top: 40px;
+    left: 247%;
+}
+

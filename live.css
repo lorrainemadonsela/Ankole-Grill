@@ -1,0 +1,76 @@
+.main-container{
+    display: flex;
+    background-image: url(images/drum-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tukatike{
+    border: 1px solid;
+    background-image: url(images/);
+    width: 50vw;
+    color: #FFFFFF;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.lives{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.fadhilee{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.fadhilee:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.them{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.them:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.jack{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.jack:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.ankole-logo{
+    position: absolute;
+    top: 150px;
+    left: 17%;
+}
+.ankole-logo{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 10px;
+}
+.IG-FB{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 60px;
+    color: #c4bfbf;
+}
+.wap{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 800px;
+    color: #c4bfbf;
+}

@@ -1,0 +1,87 @@
+.menus{
+    display: flex;
+    border: 1px solid;
+    height: 100vh;
+}
+.kitisuru{
+    background-image: url(images/kitisuru.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    height: 100vh;
+    width: 50vw;
+    text-align: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.Kilimani{
+    background-image: url(images/location2.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    height: 100vh;
+    width: 50vw;
+    text-align: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.ankole-Logo{
+    position: absolute;
+    top: 50px;
+    left: 44%;
+}
+.ankole-logo{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 10px;
+}
+.IG-FB{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 60px;
+    color: #c4bfbf;
+}
+.wap{
+    margin-left: 1600px;
+    padding-left: 80px;
+    position: absolute;
+    top: 800px;
+    color: #c4bfbf;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .menus{
+        display: flex;
+        border: 1px solid;
+        padding-left: 0%;
+    }
+    .kitisuru{
+        background-image: url(images/kitisuru.jpg);
+        color: #FFFFFF;
+        height: 600px;
+        width: 600px;
+        text-align: center;
+        align-content: center;
+    }
+    .Kilimani{
+        background-image: url(images/kilimani.jpeg);
+        background-size: cover;
+        color: #FFFFFF;
+        height: 600px;
+        width: 600px;
+        text-align: center;
+        background-repeat: no-repeat;
+        align-content: center;
+
+    }
+    .ankole-Logo{
+        position: absolute;
+        top: 5px;
+        left: 5%;
+    }
+}
